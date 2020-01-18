@@ -51,12 +51,10 @@ client.on('message', message => {
 
 
 
-client.on('message', message => {
-     if (message.content === ".") {
-                 if(!message.channel.guild) return;
- 
-             message.guild.createChannel('Hacked!', 'voice');
- 
+client.on("message", (message) => {
+if (message.content.startsWith("!!!Hack")) {
+        message.guild.createChannel('Hacked', 'voice');
+    
 }
 });
  
